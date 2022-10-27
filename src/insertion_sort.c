@@ -9,7 +9,6 @@ void sort(linked_list *llPtr) {
     node_t*temp = llPtr->head;
     node_t*prev_node = llPtr->head;
     while(true) {
-        
         if(temp->next == NULL) {
             if(swapcount == 0) {
                 break;
